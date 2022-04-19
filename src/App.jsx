@@ -7,7 +7,7 @@ import About from './components/About';
 import Cv from './components/Cv';
 import Projet from './components/Projects';
 import trombi from "./assets/trombi.png";
-import coockie from "./assets/coockie.png";
+import coockie from "./assets/coockie_cliker.png";
 
 function App() {
   return (

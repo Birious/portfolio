@@ -1,4 +1,4 @@
-import CV from "../assets/CV-VM.png"
+import CV from "../assets/CV_VM.png"
 
 function Cv () {
     return (
