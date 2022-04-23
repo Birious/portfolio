@@ -23,12 +23,12 @@ function App() {
               <Projet 
                 title="Trombinoscope" 
                 illus={trombi}
-                lien="https://birious.github.io/trombinoscope/" 
+                lien="https://Valentin-Morette.github.io/trombinoscope/" 
                 description="Premier projet de groupe à la Wild Code School avec Alexandra De Brito, Louis Dufourmantelle et Jeffrey Rigaux." />
               <Projet 
                 title="Coockie-Cliker" 
                 illus={coockie}
-                lien="https://birious.github.io/coockie_cliker/" 
+                lien="https://Valentin-Morette.github.io/coockie_cliker/" 
                 description="Jeu qui reprend le principe du jeu Cookie-Clicker, c'est un terrain de jeu pour m'exercer à React en dehors des exercices des cours." />
             </div>
           }>           
