@@ -9,7 +9,7 @@ function Home () {
                 <p>Développeur Web Junior</p>
                 <div id="icons">
                     <a href="https://www.linkedin.com/in/valentinmorette/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/Birious" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/Valentin-Morette" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
                     <a href="https://twitter.com/VM__Dev" target="_blank" rel="noreferrer"><i class="fa-brands fa-twitter"></i></a>
                 </div>
             </div>
