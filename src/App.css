@@ -115,6 +115,23 @@ span{
     border: 3px solid #a9a9b3;
 }
 
+.dl{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+}
+
+.buttondl{
+    padding: 10px;
+    background-color: #a9a9b3;
+    border-radius: 50px;
+    border : none;
+    color : #252627;
+    cursor: pointer;
+    font-family: "jose";
+    font-weight: 800;
+}
+
 /* Page Projets */
 
 .projetCard:hover{
@@ -165,5 +182,8 @@ span{
         justify-content: flex-start;
         gap : 3rem;
         margin-left: 2rem;
+    }
+    .buttondl{
+        padding: 15px;
     }
 }

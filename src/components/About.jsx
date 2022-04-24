@@ -10,9 +10,9 @@ function About () {
         if (weekOnMonth === 0) {
             return ".";
         } else if (weekOnMonth === 1) {
-            return ` et ${weekOnMonth} semaine`
+            return ` et ${weekOnMonth} semaine.`
         } else {
-            return ` et ${weekOnMonth} semaines`
+            return ` et ${weekOnMonth} semaines.`
         }
     }
     
