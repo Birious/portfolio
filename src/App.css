@@ -32,6 +32,10 @@ a{
     gap : 1rem;
 }
 
+#icons i{
+    font-size: 24px;
+}
+
 #pp{
     margin-top: 15vh;
     border-radius: 50%;
@@ -57,10 +61,6 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-i{
-    font-size: 24px;
 }
 
 /* Navbar */
@@ -121,7 +121,7 @@ span{
     justify-content: center;
 }
 
-.buttondl{
+.linkdl{
     padding: 10px;
     background-color: #a9a9b3;
     border-radius: 50px;
@@ -131,6 +131,7 @@ span{
     font-family: "jose";
     font-weight: 800;
 }
+
 
 /* Page Projets */
 
@@ -183,7 +184,7 @@ span{
         gap : 3rem;
         margin-left: 2rem;
     }
-    .buttondl{
+    .linkdl{
         padding: 15px;
     }
 }
