@@ -13,6 +13,7 @@ function App() {
   return (
     <Router
       basename={"/portfolio"}
+      forceRefresh={true}
     >
       <div>
         <Navbar />
