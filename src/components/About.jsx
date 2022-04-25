@@ -2,7 +2,7 @@ function About () {
 
     const time = Date.now() - Date.parse("2022-02-28");
     const week = (((((time/1000)/60)/60)/24)/7);
-    const month = parseInt(((((time/1000)/60)/60)/24)/30);;
+    const month = parseInt(((((time/1000)/60)/60)/24)/28);;
 
     // Affiche le nombre de semaine effectué moins les mois
     function afficheWeek () {

@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
@@ -11,7 +11,9 @@ import coockie from "./assets/coockie_cliker.png";
 
 function App() {
   return (
-    <Router>
+    <Router
+      basename={"/portfolio"}
+    >
       <div>
         <Navbar />
         <Routes>
