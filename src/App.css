@@ -132,19 +132,44 @@ span{
     font-weight: 800;
 }
 
+/* Page CodewarsStats */
+
+.imgcw{
+    width: 50px;
+}
+
+.cwcard{
+    display: flex;
+    border: 2px solid #a9a9b3;
+    border-radius: 5px;
+    width: 170px;
+}
+
+.cwstats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.cwglobal{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
 
 /* Page Projets */
 
-.projetCard:hover{
+.projetCard:hover, .cwcard:hover{
     box-shadow: 0px 0px 1rem #a9a9b3;
 }
 
 .allProjetCard{
     padding: 2rem;
     display: grid;
-    justify-content: space-around;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 30%));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .projetCard{
@@ -153,6 +178,12 @@ span{
     border : solid 2px #a9a9b3;
     border-radius: 15px;
     height: 350px;
+    max-width: 500px;
+}
+
+.plink{
+    display: flex;
+    justify-content: center;
 }
 
 .projetCard > img{

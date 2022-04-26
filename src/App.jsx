@@ -6,10 +6,12 @@ import Home from './components/Home';
 import About from './components/About';
 import Cv from './components/Cv';
 import Projet from './components/Projects';
+import CodewarsStats from './components/CodewarsStats';
 import trombi from "./assets/trombi.png";
 import coockie from "./assets/coockie_cliker.png";
 
 function App() {
+ 
   return (
     <Router>
       <div>
@@ -19,7 +21,8 @@ function App() {
           <Route path="about" element={<About />}></Route>
           <Route path="cv" element={<Cv />}></Route>
           <Route path="projets" element={
-            <div class="allProjetCard">
+            <>
+            <div className="allProjetCard">
               <Projet 
                 title="Trombinoscope" 
                 illus={trombi}
@@ -31,6 +34,8 @@ function App() {
                 lien="https://Valentin-Morette.github.io/coockie_cliker/" 
                 description="Jeu qui reprend le principe du jeu Cookie-Clicker, c'est un terrain de jeu pour m'exercer à React en dehors des exercices des cours." />
             </div>
+            <CodewarsStats />
+            </>
           }>           
           </Route>
         </Routes>
