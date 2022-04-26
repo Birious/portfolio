@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.32e7230e.css",
-    "main.js": "/portfolio/static/js/main.d81fc231.js",
+    "main.css": "/portfolio/static/css/main.d0f9750a.css",
+    "main.js": "/portfolio/static/js/main.9df45bbd.js",
     "static/js/787.df06223f.chunk.js": "/portfolio/static/js/787.df06223f.chunk.js",
-    "static/media/coockie_cliker.png": "/portfolio/static/media/coockie_cliker.4a83992dc7b941ecbdb2.png",
-    "static/media/trombi.png": "/portfolio/static/media/trombi.0883be668793524f1341.png",
+    "static/media/coockie_cliker.png": "/portfolio/static/media/coockie_cliker.69e8a78e93e78a5b5c37.png",
     "static/media/CV_VM.png": "/portfolio/static/media/CV_VM.5f1a217ea9c8ba631d04.png",
+    "static/media/trombi.png": "/portfolio/static/media/trombi.72464d11cc9d46a6d499.png",
     "static/media/CV_VM_DL.pdf": "/portfolio/static/media/CV_VM_DL.25ca29e6804332238346.pdf",
     "static/media/pp.png": "/portfolio/static/media/pp.c4c0a70cde9436c46d0f.png",
     "static/media/JosefinSans-VariableFont_wght.ttf": "/portfolio/static/media/JosefinSans-VariableFont_wght.762df0b3ada8d7e38f03.ttf",
+    "static/media/codewars.svg": "/portfolio/static/media/codewars.ae70542faad07e2ab23b27a1df187fa1.svg",
     "index.html": "/portfolio/index.html",
-    "main.32e7230e.css.map": "/portfolio/static/css/main.32e7230e.css.map",
-    "main.d81fc231.js.map": "/portfolio/static/js/main.d81fc231.js.map",
+    "main.d0f9750a.css.map": "/portfolio/static/css/main.d0f9750a.css.map",
+    "main.9df45bbd.js.map": "/portfolio/static/js/main.9df45bbd.js.map",
     "787.df06223f.chunk.js.map": "/portfolio/static/js/787.df06223f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32e7230e.css",
-    "static/js/main.d81fc231.js"
+    "static/css/main.d0f9750a.css",
+    "static/js/main.9df45bbd.js"
   ]
 }
