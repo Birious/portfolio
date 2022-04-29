@@ -18,7 +18,7 @@ function CodewarsStats () {
     return (
         honor && (
             <div className='cwglobal'>
-                <a href="https://www.codewars.com/users/Birious">
+                <a href="https://www.codewars.com/users/Birious" target="_blank" rel="noreferrer">
                     <div className='cwcard'>
                         <img className="imgcw" src={codewars} alt="codewars"></img>
                         <div className='cwstats'>

@@ -11,7 +11,7 @@ import trombi from "./assets/trombi.png";
 import coockie from "./assets/coockie_cliker.png";
 
 function App() {
- 
+
   return (
     <Router>
       <div>

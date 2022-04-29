@@ -19,6 +19,10 @@ a:hover, li:hover{
     color : white;
 }
 
+.navbarLink:focus{
+    color : white;
+}
+
 a{
     color : #a9a9b3;
     text-decoration: none;
@@ -207,14 +211,30 @@ span{
     #imgcv{
         width: 50%;
     }
+
     #apropos{
         margin-top: 7vh;
     }
+
     #menu{
         justify-content: flex-start;
-        gap : 3rem;
-        margin-left: 2rem;
     }
+    
+    #menu > li > a{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        height: 6vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbarLink:hover, .navbarLink:focus{
+        box-sizing: border-box;
+        background-color: rgb(169, 169, 179, 0.3);
+        border-bottom: solid 3px rgb(169, 169, 179, 0.8);
+        color: white;
+    }
+
     .linkdl{
         padding: 15px;
     }
