@@ -9,6 +9,7 @@ import Projet from './components/Projects';
 import CodewarsStats from './components/CodewarsStats';
 import trombi from "./assets/trombi.png";
 import coockie from "./assets/coockie_cliker.png";
+import wcw from "./assets/wcw.png";
 
 function App() {
 
@@ -33,6 +34,11 @@ function App() {
                 illus={coockie}
                 lien="https://Valentin-Morette.github.io/coockie_cliker/" 
                 description="Jeu qui reprend le principe du jeu Cookie-Clicker, c'est un terrain de jeu pour m'exercer à React en dehors des exercices des cours." />
+              <Projet 
+                title="Wild Code Wars" 
+                illus={wcw}
+                lien="https://Valentin-Morette.github.io/wild-code-wars/" 
+                description="Page utilisant l'API du jeu d'algorithme Code Wars, regroupe les statistiques de toute la promotion de la Wild Code School sur le jeu." />
             </div>
             <CodewarsStats />
             </>
