@@ -1,5 +1,5 @@
-import CV from "../assets/CV_VMorette.png";
-import CVPDF from "../assets/CV_VMorette.pdf";
+import CV from "../assets/CV_VMorette2.png";
+import CVPDF from "../assets/CV_VMorette2.pdf";
 
 function Cv() {
   return (
