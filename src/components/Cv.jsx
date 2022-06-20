@@ -1,16 +1,17 @@
-import CV from "../assets/CV_VMORETTE.png";
-import CVPDF from "../assets/CV_VMORETTE.pdf";
+import React from 'react';
+import CV from '../assets/CV_VMORETTE.png';
+import CVPDF from '../assets/CV_VMORETTE.pdf';
 
 function Cv() {
   return (
     <>
       <div className="dl">
         <a href={CVPDF} download="CV_VM_DL.pdf" className="linkdl">
-          Download <i class="fa-solid fa-file-arrow-down"></i>
+          Download <i className="fa-solid fa-file-arrow-down" />
         </a>
       </div>
       <div id="cv">
-        <img id="imgcv" src={CV} alt="CV"></img>
+        <img id="imgcv" src={CV} alt="CV" />
       </div>
     </>
   );
