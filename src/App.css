@@ -38,7 +38,7 @@ a {
 }
 
 #icons i {
-  font-size: 24px;
+  font-size: 36px;
 }
 
 #pp {
@@ -211,6 +211,10 @@ span {
 @media screen and (orientation: landscape) {
   #imgcv {
     width: 50%;
+  }
+
+  #icons i {
+    font-size: 24px;
   }
 
   #apropos {
