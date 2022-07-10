@@ -38,11 +38,6 @@ function About() {
         en tant que développeur web pour monter en compétences et dans un futur
         plus lointain, créer ma propre entreprise en alliant mes compétences
         dans la comptabilité et le développement Web.
-        <br />
-        <br />
-        Je suis actuellement à la <span>recherche d&apos;un stage</span>, en
-        tant que développeur web, commençant à l&apos;issue de ma formation{' '}
-        <span>en Aout / Septembre 2022</span> pour une durée de 4 à 6 mois.
       </p>
     </section>
   );
