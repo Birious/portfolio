@@ -25,9 +25,12 @@ function About() {
         <br />
         <br />
         Pour ce faire, j&apos;ai d&apos;abord commencé par{' '}
-        <span>apprendre en autodidacte HTML / CSS.</span> Ayant un intérêt
-        certain pour la programmation, je me suis lancé dans une{' '}
-        <span>formation REACT / JS</span> à la Wild Code School de Reims que
+        <span>
+          apprendre en autodidacte HTML / CSS, puis Python pour
+          l&apos;algorithmie.
+        </span>{' '}
+        Ayant un intérêt certain pour la programmation, je me suis lancé dans
+        une <span>formation REACT / JS</span> à la Wild Code School de Reims que
         j&apos;ai débutée il y a {month} mois{afficheWeek()}
         <br />
         <br />

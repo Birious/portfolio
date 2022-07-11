@@ -1,6 +1,6 @@
 import React from 'react';
-import CV from '../assets/CV_VMORETTE.png';
-import CVPDF from '../assets/CV_VMORETTE.pdf';
+import CV from '../assets/images/CV_VMORETTE.png';
+import CVPDF from '../assets/pdf/CV_VMORETTE.pdf';
 
 function Cv() {
   return (

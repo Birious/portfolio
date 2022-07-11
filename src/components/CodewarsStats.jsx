@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import codewars from '../assets/codewars.svg';
+import codewars from '../assets/images/codewars.svg';
 
 function CodewarsStats() {
   const [honor, setHonor] = useState();

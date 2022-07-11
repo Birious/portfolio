@@ -1,5 +1,5 @@
 import React from 'react';
-import PP from '../assets/pp.png';
+import PP from '../assets/images/pp.png';
 
 function Home() {
   return (

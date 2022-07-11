@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'jose';
-  src: url(./assets/JosefinSans-VariableFont_wght.ttf);
+  src: url(./assets/fonts/JosefinSans-VariableFont_wght.ttf);
 }
 
 * {
@@ -78,7 +78,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  min-height: 6vh;
+  min-height: 8vh;
 }
 
 #menu li {
@@ -235,6 +235,7 @@ span {
 
   #menu {
     justify-content: flex-start;
+    min-height: 6vh;
   }
 
   #menu > li > a {

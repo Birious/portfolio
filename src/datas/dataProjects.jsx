@@ -1,8 +1,8 @@
-import poster from '../assets/posteries.png';
-import trombi from '../assets/trombi.png';
-import coockie from '../assets/coockie_cliker.png';
-import wcw from '../assets/wcw.png';
-import mario from '../assets/mario.png';
+import poster from '../assets/images/img_projet/posteries.png';
+import trombi from '../assets/images/img_projet/trombi.png';
+import coockie from '../assets/images/img_projet/coockie_cliker.png';
+import wcw from '../assets/images/img_projet/wcw.png';
+import mario from '../assets/images/img_projet/mario.png';
 
 const dataProjects = [
   {
@@ -27,18 +27,18 @@ const dataProjects = [
     lien: 'https://Valentin-Morette.github.io/wild-code-wars/',
   },
   {
-    title: 'Coockie-Cliker',
-    description:
-      "Jeu qui reprend le principe du jeu Cookie-Clicker, c'est un terrain de jeu pour m'exercer à React en dehors des exercices des cours.",
-    illus: coockie,
-    lien: 'https://Valentin-Morette.github.io/coockie_cliker/',
-  },
-  {
     title: 'Mario 64 Soluce',
     description:
       "Site de solution du jeu Mario 64 sous format vidéo. Projet personnel pour m'entraîner avec une base de données.",
     illus: mario,
     lien: 'https://github.com/Valentin-Morette/m64soluce',
+  },
+  {
+    title: 'Coockie-Cliker',
+    description:
+      "Jeu qui reprend le principe du jeu Cookie-Clicker, c'est un terrain de jeu pour m'exercer à React en dehors des exercices des cours.",
+    illus: coockie,
+    lien: 'https://Valentin-Morette.github.io/coockie_cliker/',
   },
 ];
 
