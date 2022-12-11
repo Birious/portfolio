@@ -1,48 +1,59 @@
 import React from 'react';
 
 function About() {
-  const time = Date.now() - Date.parse('2022-02-28');
-  const week = time / 1000 / 60 / 60 / 24 / 7;
-  const month = parseInt(time / 1000 / 60 / 60 / 24 / 28, 10);
-
-  // Affiche le nombre de semaine effectué moins les mois
-  function afficheWeek() {
-    const weekOnMonth = parseInt(week % 4, 10);
-    if (weekOnMonth === 0) {
-      return '.';
-    }
-    if (weekOnMonth === 1) {
-      return ` et ${weekOnMonth} semaine.`;
-    }
-    return ` et ${weekOnMonth} semaines.`;
-  }
-
   return (
-    <section id="apropos">
-      <p>
-        Après 5 ans dans le domaine de la comptabilité, j&apos;ai décidé de me{' '}
-        <span>reconvertir dans le développement Web</span>.
-        <br />
-        <br />
-        Pour ce faire, j&apos;ai d&apos;abord commencé par{' '}
-        <span>
-          apprendre en autodidacte HTML / CSS, puis Python pour
-          l&apos;algorithmie.
-        </span>{' '}
-        Ayant un intérêt certain pour la programmation, je me suis lancé dans
-        une <span>formation REACT / JS</span> à la Wild Code School de Reims que
-        j&apos;ai débutée il y a {month} mois{afficheWeek()}
-        <br />
-        <br />
-        Je me suis <span>pris de passion</span> pour ce domaine, j&apos;ai pour
-        objectif pendant ma formation de faire un maximum de projets personnels
-        pour m&apos;entrainer et avoir les meilleures compétences techniques
-        possibles à la sortie de ma formation. Suite à cela, trouver un travail
-        en tant que développeur web pour monter en compétences et dans un futur
-        plus lointain, créer ma propre entreprise en alliant mes compétences
-        dans la comptabilité et le développement Web.
-      </p>
-    </section>
+    <>
+      <section id="apropos">
+        <p>
+          Valentin Morette, 27 ans, j&apos;ai passé les cinq dernières années
+          dans le domaine de la comptabilité. Cependant, j&apos;ai décidé de me
+          reconvertir car ce domaine ne me satisfaisait plus. Actuellement, je
+          suis en formation à la Wild Code School de Reims pour devenir
+          développeur web. Passionné de technologie, j&apos;ai commencé à
+          apprendre en autodidacte avant de suivre cette formation.
+          <br />
+          <br />
+          Dans le cadre de ma formation, je suis en stage chez Inter-actif, un
+          Apple Premium Reseller. Mon travail consiste à créer des outils
+          internes pour l&apos;entreprise, comme des outils de visualisation de
+          chiffres où de gestion du site en ligne. Cette expérience en stage me
+          permet de mettre en pratique les compétences que j&apos;ai acquises
+          pendant ma formation et de découvrir le monde du travail en tant que
+          développeur web.
+          <br />
+          <br />
+          Mon objectif à la fin de ma formation est d&apos;avoir les meilleures
+          compétences techniques possibles pour pouvoir trouver un emploi en
+          tant que développeur web et continuer à apprendre et à évoluer dans ce
+          domaine passionnant. Dans un futur plus lointain, j&apos;aimerais
+          créer ma propre entreprise en combinant mes compétences en
+          comptabilité et en développement web.
+        </p>
+      </section>
+      <section id="techno">
+        <h2>Technologies</h2>
+        <div className="techno">
+          <div className="techno1">
+            <h3>Front-end</h3>
+            <ul>
+              <li>- HTML</li>
+              <li>- CSS</li>
+              <li>- JavaScript</li>
+              <li>- React</li>
+            </ul>
+          </div>
+          <div className="techno2">
+            <h3>Back-end</h3>
+            <ul>
+              <li>- Node.js</li>
+              <li>- Express</li>
+              <li>- MySQL</li>
+              <li>- PHP</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
 

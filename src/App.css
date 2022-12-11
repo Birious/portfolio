@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "jose";
+  font-family: 'jose';
   src: url(./assets/fonts/JosefinSans-VariableFont_wght.ttf);
 }
 
@@ -12,7 +12,7 @@ body {
   background-color: #292a2d;
   color: #a9a9b3;
   font-size: 16px;
-  font-family: "jose";
+  font-family: 'jose';
 }
 
 a:hover,
@@ -106,6 +106,32 @@ span {
   font-size: 17px;
 }
 
+#techno {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#techno h2 {
+  text-align: center;
+  margin: 2rem;
+}
+
+#techno li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.techno {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.techno h3 {
+  margin-bottom: 1rem;
+}
+
 /* Page CV */
 
 #cv {
@@ -133,7 +159,7 @@ span {
   border: none;
   color: #252627;
   cursor: pointer;
-  font-family: "jose";
+  font-family: 'jose';
   font-weight: 800;
 }
 
