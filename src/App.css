@@ -239,6 +239,15 @@ span {
 	margin-bottom: 1rem;
 }
 
+.typeProject > h2 {
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+#firstType {
+	margin-top: 2rem;
+}
+
 /* Variations format display */
 
 @media screen and (orientation: landscape) {
