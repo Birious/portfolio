@@ -47,9 +47,9 @@ const dataProjects = [
 	{
 		title: 'Mario 64 Soluce',
 		description:
-			"Ce site présente des solutions pour le jeu Mario 64 sous forme vidéo. Ce projet personnel m'a permis de m'entraîner avec une base de données.",
+			'Ce site présente des solutions pour le jeu Mario 64 sous forme vidéo.',
 		illus: mario,
-		lien: 'https://github.com/Valentin-Morette/m64soluce',
+		lien: 'https://valentin-morette.github.io/Mario64Soluce/',
 		type: 'perso',
 		prio: 3,
 	},
